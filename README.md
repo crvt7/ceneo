@@ -22,3 +22,15 @@
 - pobranie kodu pojedynczej strony z opiniami
 - wyodrębnienie z kodu strony kodu pojedynczej opinii
 - pobranie do pojedynczych zmiennych poszczególnych składowych na podstawie selektorów
+
+Etap 2 Ekstrakcja wszystkich opinii o produkcie z pojedynczej strony
+zapis składowych pojedynczej opinii do słownika
+zdefiniowanie listy do przechowywanie wszystkich opinii o danym produkcie
+dodanie pętli, która wykonuje operację ekstrakcji dla wszystkich opinii pobranych z pojedynczej strony
+
+Etap 3 Ekstrakcja wszystkich opinii o produkcie w wszystkich stron
+dodanie pętli, która pobiera i analizuje kolejne strony z opiniami o produkcie
+dodanie możliwości podania kodu produktu "z klawiatury"
+dodanie zapisu wszystkich opinii o produkcie do pliku .json
+
+Etap 4 Refactoring
